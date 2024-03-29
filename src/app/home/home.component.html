@@ -4,7 +4,7 @@
       @for(fruit of fruitData; track fruit) {
         <div
           class="content-items-item"
-          [ngStyle]="{'background-image': 'url(' + fruit?.urlImg + ')', 'background-size':'cover'}"
+          [ngStyle]="{'background-image': 'url(' + fruit?.urlImg + ')'}"
           (click)="onClickFruit(fruit.id)"
         >
           <h3><strong>{{fruit.name | uppercase}}</strong></h3>

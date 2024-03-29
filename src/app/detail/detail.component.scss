@@ -54,4 +54,28 @@
       }
     }
   }
+
+
+  /*********************/
+  /**** MEDIA QUERY ****/
+  /*********************/
+  @media only screen and (max-width:700px) {
+    .content {
+      &-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        &-block {width: 100%;}
+        .left {
+          img {
+            height: 200px;
+          }
+        }
+        .right {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
 }

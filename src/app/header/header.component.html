@@ -10,12 +10,13 @@
       <form #form="ngForm" class="form" (ngSubmit)="onSubmit(form)">
         <mat-form-field>
           <mat-label>Input</mat-label>
-          <input matInput type="text" name="name" placeholder="send empty value to get all fruits" ngModel>
+          <input matInput type="text" name="name" placeholder="Fruit name or part of it" ngModel>
         </mat-form-field>
         <div class="btn">
           <button mat-raised-button color="warn" type="submit" [disabled]="!form.valid">Go</button>
         </div>
       </form>
+      <div>Send empty value to get all fruits</div>
     </ng-container>
   </div>
   <div class="right">

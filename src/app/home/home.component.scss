@@ -24,6 +24,7 @@
         height: 300px;
         width: 300px;
         background-color: $backgroundSecondary;
+        background-size:cover;
         margin: 10px 10px;
         display: flex;
         flex-direction: column;
@@ -42,6 +43,23 @@
       width: 95%;
       height: 13%;
       margin:auto;
+    }
+  }
+
+
+  /*********************/
+  /**** MEDIA QUERY ****/
+  /*********************/
+  @media only screen and (max-width:450px) {
+    .content {
+      &-items {
+        &-item {
+        height: 250px;
+        width: 250px;
+        background-size: 95%;
+        background-repeat: no-repeat;
+        }
+      }
     }
   }
 }

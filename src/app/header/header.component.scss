@@ -23,13 +23,17 @@
     width: 10%;
   }
   .center {
+    display: block;
+    text-align: center;
     width: 80%;
     .image {
+      padding-top: 10px;
       img {
         height:78px;
       }
     }
     .form {
+      margin: auto;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -53,10 +57,29 @@
   }
   .right {
     width: 10%;
+    margin: 0;
+    left:0px;
     mat-icon {
       cursor: pointer;
       &:hover {
         background-color: $lightGreen;
+      }
+    }
+  }
+
+  /*********************/
+  /**** MEDIA QUERY ****/
+  /*********************/
+  @media only screen and (max-width:700px) {
+    width: 95%;
+    left:2.5%;
+    margin: 0;
+    .center {
+      .image {
+        padding-top: 26px;
+        img {
+          height: 35px;
+        }
       }
     }
   }
