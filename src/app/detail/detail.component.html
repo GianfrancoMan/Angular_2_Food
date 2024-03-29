@@ -1,0 +1,29 @@
+<div id="detail">
+  <div class="content">
+   <div class="content-details">
+    <div class="content-details-block left">
+      <img [src]="fruit?.urlImg" alt="">
+      <div><a [routerLink]="['/']">Close Details</a></div>
+    </div>
+    <div class="content-details-block right">
+      <h1>{{fruit?.name | uppercase}} details:</h1>
+      <ul>
+        <li><p>Name: <span>{{fruit?.name}}</span></p></li>
+        <li><p>Family: <span>{{fruit?.family}}</span></p></li>
+        <li><p>Genus: <span>{{fruit?.genus}}</span></p></li>
+        <li><p>Order: <span>{{fruit?.order}}</span></p></li>
+        <li>
+          <p>Nutritional Values:</p>
+          <ul>
+          <li><p>Calories: <span>{{fruit?.nutritions?.calories}}</span></p></li>
+          <li><p>Carbohydrates: <span>{{fruit?.nutritions?.carbohydrates}}%</span></p></li>
+          <li><p>Fat: <span>{{fruit?.nutritions?.fat}}%</span></p></li>
+          <li><p>Protein: <span>{{fruit?.nutritions?.protein}}%</span></p></li>
+          <li><p>Sugar: <span>{{fruit?.nutritions?.sugar}}%</span></p></li>
+        </ul>
+        </li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</div>

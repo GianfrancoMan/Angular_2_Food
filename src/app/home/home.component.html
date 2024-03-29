@@ -1,0 +1,19 @@
+<div id="home">
+  <div class="content">
+    <div class="content-items">
+      @for(fruit of fruitData; track fruit) {
+        <div
+          class="content-items-item"
+          [ngStyle]="{'background-image': 'url(' + fruit?.urlImg + ')', 'background-size':'cover'}"
+          (click)="onClickFruit(fruit.id)"
+        >
+          <h3><strong>{{fruit.name | uppercase}}</strong></h3>
+        </div>
+      }
+    </div>
+    <div class="content-footer">
+
+    </div>
+    By Gianfranco Manca 2024
+  </div>
+</div>

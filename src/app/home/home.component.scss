@@ -1,0 +1,47 @@
+@import '../../assets/scss/variables';
+#home {
+  width: 80%;
+  height: 78%;
+  margin: auto;
+  .content {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 150px;
+    &-items {
+      width: 95%;
+      height: 87%;
+      margin:auto;
+      display: flex;
+      justify-content: center;
+      align-items: top;
+      flex-wrap: wrap;
+      -ms-overflow-style: none; /* for Internet Explorer, Edge */
+      scrollbar-width: none; /* for Firefox */
+      overflow-y: scroll;
+      &::-webkit-scrollbar { display: none}
+      &-item {
+        height: 300px;
+        width: 300px;
+        background-color: $backgroundSecondary;
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: $white;
+        h3{color:$blue}
+        h3:hover{color:$white}
+        &:hover{
+          background-color: $lightGreen;
+          cursor: pointer;
+        }
+      }
+    }
+    &-footer {
+      width: 95%;
+      height: 13%;
+      margin:auto;
+    }
+  }
+}

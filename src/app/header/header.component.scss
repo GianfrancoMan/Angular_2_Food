@@ -1,0 +1,63 @@
+@import '../../assets/scss/variables';
+#header {
+  border-radius: 10px;
+  background-color: $backgroundSecondary;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  position: fixed;
+  top: 10px;
+  left: 10%;
+  color: $white;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .left, .center, .right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .left {
+    width: 10%;
+  }
+  .center {
+    width: 80%;
+    .image {
+      img {
+        height:78px;
+      }
+    }
+    .form {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2%;
+      width: 80%;
+      mat-form-field {
+        width: 80%;
+      }
+      .btn {
+        height: 100%;
+        width: 20%;
+        display: flex; justify-content: flex-start; align-items: center;
+        button {
+          width: 100%;
+          max-width: 100px;
+          margin-left: 5%;
+        }
+      }
+    }
+  }
+  .right {
+    width: 10%;
+    mat-icon {
+      cursor: pointer;
+      &:hover {
+        background-color: $lightGreen;
+      }
+    }
+  }
+}

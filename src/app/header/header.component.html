@@ -1,0 +1,24 @@
+<div id="header">
+  <div class="left">
+    <img src="../../assets/imgs/fruit_icon.png" alt="">
+  </div>
+  <div class="center">
+    <ng-container *ngIf="!isSearchBar">
+      <div class="image"><img src="../../assets/imgs/fruits_big.png" alt=""></div>
+    </ng-container>
+    <ng-container *ngIf="isSearchBar">
+      <form #form="ngForm" class="form" (ngSubmit)="onSubmit(form)">
+        <mat-form-field>
+          <mat-label>Input</mat-label>
+          <input matInput type="text" name="name" placeholder="send empty value to get all fruits" ngModel>
+        </mat-form-field>
+        <div class="btn">
+          <button mat-raised-button color="warn" type="submit" [disabled]="!form.valid">Go</button>
+        </div>
+      </form>
+    </ng-container>
+  </div>
+  <div class="right">
+    <mat-icon (click)="toggleSearchBar()">search</mat-icon>
+  </div>
+</div>
