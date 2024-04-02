@@ -11,8 +11,6 @@ export class DataService {
 
   private http:HttpClient = inject(HttpClient);
 
-  private IMG_PREF:string = 'https://www.themealdb.com/images/ingredients/';
-  private IMG_SUFF:string = '.png';
   private URL_API:string = 'https://www.fruityvice.com/api/fruit/all';
 
   currentFruits:Fruit[] = [];
