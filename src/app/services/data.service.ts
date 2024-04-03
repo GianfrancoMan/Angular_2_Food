@@ -15,15 +15,11 @@ export class DataService {
 
   currentFruits:Fruit[] = [];
 
-  httpOptions = {
-    headers: new HttpHeaders({ 'Access-Control-Allow-Origin': 'https://angular-2-food.web.app'}),
-  };
-
 
   constructor() { }
 
   public getData():Observable<Fruit[]> {
-    return this.http.get<Fruit[]>(`${this.URL_API}`, this.httpOptions);
+    return this.http.get<Fruit[]>(`${this.URL_API}`);
   }
 
   public getImage(fruitName:string):string {
