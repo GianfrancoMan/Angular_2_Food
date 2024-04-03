@@ -16,7 +16,7 @@ export class DataService {
   currentFruits:Fruit[] = [];
 
   httpOptions = {
-    headers: new HttpHeaders({ 'Access-Control-Allow-Origin': '*'}),
+    headers: new HttpHeaders({ 'Access-Control-Allow-Origin': 'https://angular-2-food.web.app'}),
   };
 
 
