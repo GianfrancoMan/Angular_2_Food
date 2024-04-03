@@ -11,7 +11,7 @@ export class DataService {
 
   private http:HttpClient = inject(HttpClient);
 
-  private URL_API:string = 'https://www.fruityvice.com/api/fruit/all';
+  private URL_API:string = '/api/fruit/all';
 
   currentFruits:Fruit[] = [];
 
