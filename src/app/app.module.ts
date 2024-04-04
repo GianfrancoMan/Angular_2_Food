@@ -13,8 +13,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { DetailComponent } from './detail/detail.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { ReloadComponent } from './reload/reload.component';
+import { CorsInterceptor } from './cors.interceptor';
 
 
 @NgModule({
@@ -36,7 +37,12 @@ import { ReloadComponent } from './reload/reload.component';
     MatButtonModule,
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: CorsInterceptor,
+      multi: true,
+    },
   ],
   bootstrap: [AppComponent]
 })
