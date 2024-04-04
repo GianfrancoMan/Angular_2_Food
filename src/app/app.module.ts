@@ -15,7 +15,6 @@ import { HomeComponent } from './home/home.component';
 import { DetailComponent } from './detail/detail.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { ReloadComponent } from './reload/reload.component';
-import { CorsInterceptor } from './cors.interceptor';
 
 
 @NgModule({
@@ -38,11 +37,6 @@ import { CorsInterceptor } from './cors.interceptor';
   ],
   providers: [
     provideAnimationsAsync(),
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: CorsInterceptor,
-      multi: true,
-    },
   ],
   bootstrap: [AppComponent]
 })
