@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit{
           this.dataService.setCurrentFruits(this.fruitData);
         },
         error: (err) => {
-          console.log(`Error: ${err}`);
+          console.log(`Error: ${err.message}`);
         },
         complete: ()=> {
           this.route.queryParams.subscribe( (p:any) => {
