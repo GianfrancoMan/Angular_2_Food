@@ -11,7 +11,7 @@ export class DataService {
 
   private http:HttpClient = inject(HttpClient);
 
-  private URL_API:string = 'api/fruit/all';
+  private URL_API:string = 'https://www.fruityvice.com/api/fruit/all';
 
   currentFruits:Fruit[] = [];
 
@@ -19,7 +19,7 @@ export class DataService {
   constructor() { }
 
   public getData():Observable<Fruit[]> {
-    return this.http.get<Fruit[]>(`${this.URL_API}`);
+    return this.http.get<Fruit[]>(`https://corsproxy.io/?${this.URL_API}`);
   }
 
   public getImage(fruitName:string):string {
