@@ -5,6 +5,7 @@
 > - Typescript [link](https://www.typescriptlang.org/it/tsconfig)
 > - Angular 17 [link](https://angular.io/)
 > - Angular Materials [link](https://material.angular.io/)
+> - Corsproxy.io [link](https://corsproxy.io)
 
 ### To use the application locally:
 >
@@ -32,3 +33,6 @@
 > ![normal-header](https://i.ibb.co/5h2swHN/normal-header.png)
 > 
 > ![search bar header](https://i.ibb.co/qMz12Nq/search-bar-header.png)
+
+### Site
+> Fruits [link](https://angular-2-food.firebaseapp.com/)
