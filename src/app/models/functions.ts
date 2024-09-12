@@ -37,7 +37,7 @@ function getImgPath(nameFruit:string):string {
     case "Feijoa": return "https://i.ibb.co/k0QBLbg/Feijoa.png";
     case "Avocado": return "https://i.ibb.co/dW9Jn5L/Avocado.png";
     case "Kiwifruit": return "https://i.ibb.co/sbWCB4F/Kiwifruit.png";
-    case "Cranberry": return "https://i.ibb.co/tDw2jqQ/Blackberry.png";
+    case "Cranberry": return "https://i.ibb.co/S3bSW2V/Cranberry.png";
     case "Cherry": return "https://i.ibb.co/Qd0WXP8/Cherry.png";
     case "Peach": return "https://i.ibb.co/4TgkQMR/Peach.png";
     case "Jackfruit": return "https://i.ibb.co/mN09M12/Jackfruit.png";
