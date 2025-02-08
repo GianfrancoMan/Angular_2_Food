@@ -1,0 +1,135 @@
+[debug] [2025-02-08T16:40:10.920Z] ----------------------------------------------------------------------
+[debug] [2025-02-08T16:40:10.926Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-08T16:40:10.927Z] CLI Version:   13.30.0
+[debug] [2025-02-08T16:40:10.927Z] Platform:      win32
+[debug] [2025-02-08T16:40:10.927Z] Node Version:  v20.10.0
+[debug] [2025-02-08T16:40:10.927Z] Time:          Sat Feb 08 2025 17:40:10 GMT+0100 (Ora standard dell’Europa centrale)
+[debug] [2025-02-08T16:40:10.928Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-08T16:40:11.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-08T16:40:11.311Z] > authorizing via signed-in user (gfmanca52@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Utente\Desktop\Angular_2_Food
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-08T16:40:19.990Z] Using project from CLI flag: angular-2-food
+[debug] [2025-02-08T16:40:19.992Z] Checked if tokens are valid: true, expires at: 1739035800646
+[debug] [2025-02-08T16:40:19.992Z] Checked if tokens are valid: true, expires at: 1739035800646
+[debug] [2025-02-08T16:40:19.994Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food [none]
+[debug] [2025-02-08T16:40:20.433Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food 403
+[debug] [2025-02-08T16:40:20.434Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-02-08T16:40:20.435Z] Request to https://firebase.googleapis.com/v1beta1/projects/angular-2-food had HTTP Error: 403, The caller does not have permission
+[debug] [2025-02-08T16:40:20.437Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/angular-2-food had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Utente\AppData\Roaming\nvm\v20.10.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Utente\AppData\Roaming\nvm\v20.10.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project angular-2-food. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-02-08T16:41:18.059Z] ----------------------------------------------------------------------
+[debug] [2025-02-08T16:41:18.064Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-08T16:41:18.065Z] CLI Version:   13.30.0
+[debug] [2025-02-08T16:41:18.065Z] Platform:      win32
+[debug] [2025-02-08T16:41:18.065Z] Node Version:  v20.10.0
+[debug] [2025-02-08T16:41:18.066Z] Time:          Sat Feb 08 2025 17:41:18 GMT+0100 (Ora standard dell’Europa centrale)
+[debug] [2025-02-08T16:41:18.066Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-08T16:41:18.506Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-08T16:41:18.508Z] > authorizing via signed-in user (gfmanca52@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Utente\Desktop\Angular_2_Food
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-08T16:41:24.203Z] Using project from CLI flag: angular-2-food
+[debug] [2025-02-08T16:41:24.204Z] Checked if tokens are valid: true, expires at: 1739035800646
+[debug] [2025-02-08T16:41:24.205Z] Checked if tokens are valid: true, expires at: 1739035800646
+[debug] [2025-02-08T16:41:24.207Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food [none]
+[debug] [2025-02-08T16:41:24.639Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food 403
+[debug] [2025-02-08T16:41:24.640Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-02-08T16:41:24.641Z] Request to https://firebase.googleapis.com/v1beta1/projects/angular-2-food had HTTP Error: 403, The caller does not have permission
+[debug] [2025-02-08T16:41:24.642Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/angular-2-food had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Utente\AppData\Roaming\nvm\v20.10.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Utente\AppData\Roaming\nvm\v20.10.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project angular-2-food. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-02-08T16:45:12.765Z] ----------------------------------------------------------------------
+[debug] [2025-02-08T16:45:12.772Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-08T16:45:12.773Z] CLI Version:   13.30.0
+[debug] [2025-02-08T16:45:12.773Z] Platform:      win32
+[debug] [2025-02-08T16:45:12.773Z] Node Version:  v20.10.0
+[debug] [2025-02-08T16:45:12.773Z] Time:          Sat Feb 08 2025 17:45:12 GMT+0100 (Ora standard dell’Europa centrale)
+[debug] [2025-02-08T16:45:12.774Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-08T16:45:13.161Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-08T16:45:13.162Z] > authorizing via signed-in user (gfmanca52@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Utente\Desktop\Angular_2_Food
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-08T16:45:20.055Z] Using project from CLI flag: angular-2-food
+[debug] [2025-02-08T16:45:20.056Z] Checked if tokens are valid: true, expires at: 1739035800646
+[debug] [2025-02-08T16:45:20.057Z] Checked if tokens are valid: true, expires at: 1739035800646
+[debug] [2025-02-08T16:45:20.059Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food [none]
+[debug] [2025-02-08T16:45:20.556Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food 403
+[debug] [2025-02-08T16:45:20.556Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/angular-2-food {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-02-08T16:45:20.558Z] Request to https://firebase.googleapis.com/v1beta1/projects/angular-2-food had HTTP Error: 403, The caller does not have permission
+[debug] [2025-02-08T16:45:20.560Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/angular-2-food had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Utente\AppData\Roaming\nvm\v20.10.0\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Utente\AppData\Roaming\nvm\v20.10.0\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project angular-2-food. Please make sure the project exists and your account has permission to access it.
