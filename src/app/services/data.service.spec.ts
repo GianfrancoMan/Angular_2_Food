@@ -78,7 +78,7 @@ describe('DataService', () => {
       expect(fruit?.name).withContext("Fruit's name is wrong").toEqual("Fruit2");
     });
 
-    const  request = httpTestingController.expectOne('https://corsproxy.io/?https://www.fruityvice.com/api/fruit/all');
+    const  request = httpTestingController.expectOne('https://corsproxy.io/?url=https://www.fruityvice.com/api/fruit/all');
     expect(request.request.method).toEqual("GET");
 
     request.flush(mockFruits);
