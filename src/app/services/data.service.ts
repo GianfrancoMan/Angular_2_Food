@@ -19,7 +19,7 @@ export class DataService {
   constructor() { }
 
   public getData():Observable<Fruit[]> {
-    return this.http.get<Fruit[]>(`https://corsproxy.io/?${this.URL_API}`);
+    return this.http.get<Fruit[]>(`https://corsproxy.io/?url=${this.URL_API}`);
   }
 
   public getImage(fruitName:string):string {
