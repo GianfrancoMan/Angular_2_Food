@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"fruitsng-c2d41.web.app",
+    "site":"fruitsng-c2d41",
     "public": "./dist/angular-2-food/browser",
     "ignore": [
       "firebase.json",
